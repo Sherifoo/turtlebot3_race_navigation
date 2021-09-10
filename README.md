@@ -8,7 +8,7 @@ YOU NEED:
 HOW TO RUN:
 - Launch gazebo simulation (roslaunch turtlebot3_gazebo turtlebot3_autorace.launch)
 - Launch the turtlebot teleop key (rosrun turtlebot3_teleop turtlebot3_teleop_key)
-- Run the python code
+- Run race_navigation_node.py
 - The node publishes the topic 'closest' (rostopic echo closest)
 
 TODO:
@@ -16,3 +16,6 @@ TODO:
 - Set amount of laps
 - Lane detection to limit movement to race tracks
 - Different coordinates according to Gazebo world
+
+
+![Screenshot1 (2)](https://user-images.githubusercontent.com/36484986/132820224-ac53cdf0-326e-45c0-8af9-38b095978b1a.png)
